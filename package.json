@@ -1,0 +1,41 @@
+{
+  "name": "tinax-option-adder",
+  "version": "1.0.0",
+  "description": "A lightweight UI component for network management panels, featuring real-time MAC address validation, dynamic input masking, and seamless list management.",
+  "type": "module",
+  "keywords": [
+    "mac-address",
+    "mac-address-input",
+    "ui-component",
+    "networking",
+    "form-validation",
+    "input-masking",
+    "bootstrap-ui",
+    "javascript",
+    "frontend-tool",
+    "tinax"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "Tina Bilişim Teknolojileri Yazılım ve Sanayi Ltd. Şti. <info@tina.com.tr>",
+  "contributors": [
+    "Emine Şule Çelik <esulecelik@gmail.com>"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esulecelik/tinax-option-adder"
+  },
+  "peerDependencies": {
+    "bootstrap": "^4.0.0 || ^5.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^29.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "postcss": "^8.5.6",
+    "rollup": "^4.55.1",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}
